@@ -10,7 +10,7 @@ const Hero = () => {
         <Image src={logo} alt="aifinder_logo" className="w-28 object-contain" />
         <button
           type="button"
-          onClick={() => window.open("https://github.com")}
+          onClick={() => window.open("https://github.com/othman-geurrar/AiFinder")}
           className="purple_btn"
         >
           GitHub
