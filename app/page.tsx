@@ -7,7 +7,7 @@ import Demo from "./Components/Demo";
 const homev2 = () => {
   
   return (
-    <main>
+    <main className="mb-12">
       <div className="main">
         <div className="gradient" />
       </div>

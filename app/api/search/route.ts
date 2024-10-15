@@ -61,8 +61,9 @@ export async function POST(request: Request) {
     let responseData: SearchResponse;
     try {
       responseData = JSON.parse(responseContent);
-    } catch {
-      throw new Error("Failed to parse response as JSON");
+    } catch (error) {
+      // Assert that error is of type Error
+      throw new Error(`Failed to parse response as JSON: ${(error as Error).message}`);
     }
 
     // Add placeholder logos

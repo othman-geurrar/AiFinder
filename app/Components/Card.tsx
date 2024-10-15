@@ -46,7 +46,7 @@ const AIToolCard: React.FC<AIToolCardProps> = ({ tool }) => {
         </div>
       </div>
       <div className="p-6">
-        <p className="text-gray-600 dark:text-gray-300">{tool.description}</p>
+        <p className="text-gray-900 dark:text-gray-300">{tool.description}</p>
       </div>
       <div className="p-6 dark:bg-gray-800/50">
         <a

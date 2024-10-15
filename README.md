@@ -1,6 +1,8 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+Before running the project you need to get RAPIDAPI_KEY from rapidapi.com and add it to .env file
+then npm install
 
 First, run the development server:
 
